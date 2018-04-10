@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'Bebas-Neue'
+  src: url('../font/bebas_neue/BebasNeue-Regular.otf');
+}
+/**********Smartphones*********************/
+/*@media only screen and (max-width: 600px) {
+  html, body {
+    background-image:url('../img/bg.jpg');
+    height: 600px;
+  }
+      .title-style{
+        font-size: 40px;
+      }
+      .menu{
+        background-color: #373f47;
+        font-family: 'BebasNeue';
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+        margin: 0;
+      }
+
+      #post1, #post2, #post3{
+        height: 90px;
+        margin-top: 80px;
+      }
+      #post1-text-title{
+        font-family: 'BebasNeue';
+        color: #fff;
+        font-size: 12px;
+      }
+       #post2-text-title{
+         font-family: 'BebasNeue';
+         color: #fff;
+         font-size: 12px;
+       }
+       #post3-text-title{  font-family: 'BebasNeue';
+         color: #fff;
+         font-size: 12px;
+       }
+
+         .post1-text,   .post2-text,   .post3-text{
+           font-size: 8px;
+         }
+
+         .hidden-content{
+           display: none;
+         }
+         .footer-icons{
+           font-size: 36px;
+           margin-left: 20px;
+         }
+
+
+             #footer-style{
+               height: 180px;
+               margin-top: 80px;
+             }
+
+             .coffee-width{
+               display: none;
+             }
+        #icons{
+          margin-left: 0;
+        }
+
+};
+*/
+
+
+@media only screen and (max-width: 1024px) {
+    html, body {
+      background-image:url('../img/bg.jpg');
+      height: 800px;
+    }
+
+    header{
+      background-color:#b1c9b9;
+      max-width: 100%;
+    }
+
+    .menu{
+      background-color: #373f47;
+      font-family: 'BebasNeue';
+      font-size: 40px;
+      color: #fff;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 0;
+
+
+    }
+
+    .title-style{
+      font-size: 60px;
+    }
+    .logo-img{
+      max-width: 10%;
+      margin-left: 20px;
+
+    }
+
+    #post1{
+      height: 200px;
+      margin-top: 100px;
+    }
+
+    #post2{
+      height: 200px;
+      margin-top: 100px;
+    }
+    #post3{
+      height: 200px;
+      margin-top: 100px;
+    }
+
+    #post1-text-title{
+      font-family: 'BebasNeue';
+      color: #fff;
+      font-size: 24px;
+    }
+
+    #post2-text-title{
+      font-family: 'BebasNeue';
+      color: #fff;
+      font-size: 24px;
+    }
+
+    #post3-text-title{
+      font-family: 'BebasNeue';
+      color: #fff;
+      font-size: 24px;
+    }
+
+    .post1-img{
+      height: 80%;
+
+    }
+    .post1-text{
+      font-size: 14px;
+    }
+
+    .post2-img{
+      height: 80%;
+
+    }
+    .post2-text{
+      font-size: 14px;
+  }
+    .post3-img{
+      height: 60%;
+    }
+    .post3-text{
+      font-size: 14px;
+    }
+
+    #footer-style{
+      height: 200px;
+    }
+
+    .coffee-width{
+      display: none;
+    }
+    .hidden-content{
+      display: none;
+    }
+    .footer-icons{
+      margin-left: 20px;
+    }
+
+    #icons{
+      margin-left: 0;
+    }
+};
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+  html, body {
+    background-image:url('../img/bg.jpg');
+    height: 800px;
+    background-size: 100%;
+  }
+
+  .menu{
+    background-color: #373f47;
+    font-family: 'BebasNeue';
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0;
+
+
+  .hidden-content{
+    display: none;
+  }
+
+  .coffee-width{
+        display: none;
+      }
+
+};

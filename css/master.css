@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'BebasNeue'
+  src: url('../font/bebas_neue/BebasNeue-Regular.otf');
+}
+
+html, body{
+  background-image: url('../img/bg.jpg');
+  background-repeat: repeat-y;
+  height: 3200px;
+  z-index: -30;
+
+}
+header{
+  background-color:#b1c9b9;
+  max-width: 100%;
+}
+.title-style{
+  font-family: 'BebasNeue';
+  font-size: 120px;
+  color: #fff;
+}
+.logo-img{
+  max-width: 7%;
+  margin-left: 20px;
+
+}
+
+#navbar-style{
+  background-color: #373f47;
+}
+
+.navbar-button{
+  color: #fff;
+  font-size: 25px;
+}
+
+
+.menu{
+  font-family: 'BebasNeue';
+  font-size: 60px;
+  color: #fff;
+  margin: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.menu:hover{
+  color: #ccc;
+}
+
+#post1{
+  background-color: #373f47;
+  height: 483px;
+  margin-top: 158px;
+}
+#post2{
+  background-color: #454545;
+  height: 483px;
+  margin-top: 158px;
+}
+#post3{
+  background-color: #373f47;
+  height: 483px;
+  margin-top: 158px;
+}
+
+#post1-text-title{
+  font-family: 'BebasNeue';
+  color: #fff;
+  font-size: 42px;
+}
+
+#post2-text-title{
+  font-family: 'BebasNeue';
+  color: #fff;
+  font-size: 42px;
+}
+#post3-text-title{
+  font-family: 'BebasNeue';
+  color: #fff;
+  font-size: 42px;
+}
+
+.post1-img{
+  height: 90%;
+
+}
+.post2-img{
+  height: 90%;
+
+}
+
+.post3-img{
+  height: 60%;
+
+}
+.post1-text{
+  color: #fff;
+  font-family: 'BebasNeue';
+  font-size: 24px;
+}
+.post2-text{
+  color: #fff;
+  font-family: 'BebasNeue';
+  font-size: 24px;
+}
+.post3-text{
+  color: #fff;
+  font-family: 'BebasNeue';
+  font-size: 24px;
+}
+
+#footer-style{
+  background-color: #454545;
+  height: 480px;
+  margin-top: 158px;
+  z-index: 20!important;
+  position: relative;
+
+}
+
+#newsletter{
+padding-left: 100px;
+}
+
+.footer-text{
+  color: #fff;
+  font-size: 24px;
+  font-family: 'BebasNeue';
+  padding-top: 150px;
+  padding-left: 100px;
+}
+.footer-icons{
+  color: #b1c9b9;
+  font-size: 48px;
+  font-family: 'BebasNeue';
+  margin-left: 70px;
+  cursor: pointer;
+}
+#icons{
+  margin-top: 50px;
+
+}
+.footer-link{
+  color: #a0a0a0;
+  font-size: 24px;
+  font-family: 'BebasNeue';
+  padding-right: 10px;
+  padding-bottom: 60px;
+}
+#list-link{
+margin-top: -48px;
+margin-right: 50px;
+cursor: pointer;
+}
+
+#breadcrumb{
+  font-size: 12px;
+  font-family: 'BebasNeue';
+  cursor: pointer;
+  color: #a0a0a0;
+}
+
+.coffee-beans{
+  z-index: -20;
+  margin-top: -15px;
+  position: static;
+}
