@@ -6,7 +6,7 @@
 html, body{
   background-image: url('../img/bg.jpg');
   background-repeat: repeat-y;
-  height: 3200px;
+  height: 3000px;
   z-index: -30;
 
 }
