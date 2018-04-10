@@ -6,7 +6,11 @@
 html, body{
   background-image: url('../img/bg.jpg');
   background-repeat: repeat-y;
+<<<<<<< Updated upstream
   height: 3000px;
+=======
+  height: 2800px;
+>>>>>>> Stashed changes
   z-index: -30;
 
 }
