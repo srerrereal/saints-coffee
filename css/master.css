@@ -18,10 +18,19 @@ header{
   background-color:#b1c9b9;
   max-width: 100%;
 }
+#app{
+  cursor: pointer;
+}
+
+#coffeeMug{
+display: inline;
+}
+
 .title-style{
   font-family: 'BebasNeue';
   font-size: 120px;
   color: #fff;
+  cursor: pointer;
 }
 .logo-img{
   max-width: 7%;
